@@ -1,13 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "../.."
-		},
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "wdd130"
-	}
+    "folders": [
+        {
+            "path": "../.."
+        }
+    ]
 }
