@@ -1,4 +1,30 @@
-/* Style the footer */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+ 
+.logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav {
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ /* Style the footer */
 footer {
     background-color: #333; /* Background color for the footer */
     color: #fff; /* Text color in the footer */
