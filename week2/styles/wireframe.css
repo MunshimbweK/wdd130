@@ -1,0 +1,41 @@
+/* Style the footer */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color in the footer */
+    padding: 20px; /* Add padding to the footer content */
+    text-align: center; /* Center-align the content */
+}
+
+/* Style the contact information section */
+.contact-info {
+    margin-bottom: 20px; /* Add some space below this section */
+}
+
+/* Style the copyright notice */
+.copyright {
+    font-size: 12px; /* Adjust the font size */
+}
+
+/* Style the social icons */
+.social-icons a {
+    display: inline-block; /* Display social icons horizontally */
+    margin: 0 10px; /* Add space between social icons */
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Icon color */
+}
+
+/* Style the site map section */
+.site-map ul {
+    list-style-type: none; /* Remove bullets from list */
+    padding: 0; /* Remove padding from list */
+}
+
+.site-map ul li {
+    margin-bottom: 5px; /* Add space between list items */
+}
+
+/* Style links in the site map */
+.site-map ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Link color */
+}
