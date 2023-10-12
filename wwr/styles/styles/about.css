@@ -1,21 +1,91 @@
-/* Reset some default margin and padding for consistency */
-body, h1, h2, p, ul, li {
+/* Reset some default styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text-left, .text-right {
+    flex: 1;
+    text-align: center;
+}
+
+.image {
+    flex: 2;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+.navigation{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    
+
+
 
 /* Set a background color for the entire page */
 body {
-    background-color: #f7f7f7;
-    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Replace with the desired background color */
+    margin: auto; /* Remove default margin */
+    padding: auto; /* Remove default padding */
 }
+
 
 /* Style the header */
 header {
     background-color: #333;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 10px;
     color: #fff;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+.navigation li{
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    color: whitesmoke;
     padding: 20px;
-    text-align: center;
+    text-decoration: none;
+
+}
+.navigation a:hover {
+    color: tomato;
+    font-weight:700;
+    text-decoration: underline;
 }
 
 /* Style the company name in the header */
@@ -25,24 +95,57 @@ h1 {
 }
 
 /* Style sections */
-section {
-    background-color: #fff;
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 20px;
-    margin: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.text-left, .text-right {
+    flex: 1;
+}
+.image {
+    flex: 2;
 }
 
+.image img {
+    max-width: 100%;
+    height: auto;
+}
 /* Style section titles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered-heading {
+    text-align: center;
+}
 section h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.image-container img {
+    max-width: 100px;
+    height: auto;
+}
 /* Style the footer */
 footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
+    text-align: right;
     padding: 10px 0;
 }
 
@@ -60,31 +163,5 @@ footer a {
 }
 
 /* Style the hero section */
-.hero {
-    /* Set your background image and additional styles here */
-    background-image: url('https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting12_1024.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 800px;
-    color: #fff; /* Text colour for the content on top of the image */
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-     
-}
 
-/* CSS for the article content */
-.hero-article {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
-    color: #fff;
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-/* Additional styling for text inside the article */
-.article img {
-    
-    max-width: 100%;
-    height: auto; 
-}
+

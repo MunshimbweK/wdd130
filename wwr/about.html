@@ -5,33 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="styles/styles/about.css">
+    <title>Header Layout</title>
     <!-- Add a link to your CSS file for styling -->
 </head>
 <body>
+    <header>
+        <div class="logo"><img src="images/rafting59_600.jpg" alt="Sample Logo" width="80"></div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
     <main>
-        <div class="hero">
-            <!-- content within the hero section -->
-            <h1>White Water Rafting</h1>
+       <!-- content within the flexbox section -->
+       <div class="container">
+        <h1 class="centered-heading"> White Water Rafting</h1>
+        <div class="image-container"></div>
+        <div class="article"></div>
+        <img src="images/rafting60_1024.jpg" alt="Happy Client">
+        <p> People having fun rafting.</p>
+       </div>
         </div>
         
-        <article class="article">
-            <img src="images/rafting60_1024.jpg" alt="Happy Client" width="200">
-            <p> We aim to bring you outdoors to enjoy nature</p>
-        </article>
         
         <section>
-            <h2>History</h2>
-            <p>Started by a group of young people who share the idea of working hard and playing hard.</p>
+            <div class="container">
+                <h2 class="centered-heading">History</h2>
+                <div class="image-container">
+                    <div class="text-left">
+                        <p>People are rafting.</p>
+
+                    </div>
+                    <div class="image">
+                        <img src="images/rafting7_600.jpg" alt="Center Image" width="200">
+                    </div>
+                    <div class="text-right">
+                        <p> People appear to enjoy rafting.</p>
+
+                    </div>
+                </div>
+
+            </div>
         </section>
         
         <section>
-            <h2>Adventure Awaits You</h2>
+            <div class="container">
+                <h2 class="centered-heading"> Adventure Awaits You</h2>
+
+            </div>
             <!-- Five images for the adventure section -->
-            <img src="images/rafting38_1024.jpg" alt="Adventure 1">
-            <img src="images/rafting39_1024.jpg" alt="Adventure 2">
-            <img src="images/rafting3_1024.jpg" alt="Adventure 3">
-            <img src="images/rafting5_1024.jpg" alt="Adventure 4">
-            <img src="images/rafting50_1024.jpg" alt="Adventure 5">
+            <div class="image-container">
+                <img src="images/rafting38_1024.jpg" alt="Adventure 1" width="800">
+                <img src="images/rafting39_1024.jpg" alt="Adventure 2" width="800">
+                <img src="images/rafting3_1024.jpg" alt="Adventure 3" width="800">
+                <img src="images/rafting5_1024.jpg" alt="Adventure 4" width="800">
+                <img src="images/rafting50_1024.jpg" alt="Adventure 5" width="800">
+
+
+            </div>
+            
         </section>
     </main>
     
