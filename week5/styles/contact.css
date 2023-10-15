@@ -1,0 +1,96 @@
+/* Style the header */
+header {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+.navigation li{
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    color: whitesmoke;
+    padding: 20px;
+    text-decoration: none;
+
+}
+.navigation a:hover {
+    color: tomato;
+    font-weight:700;
+    text-decoration: underline;
+}
+
+
+
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+}
+
+/* Additional styles for contact.html */
+
+#content {
+    padding: 20px;
+}
+
+.company-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.employee-profiles img {
+    max-width: 100px;
+    height: auto;
+}
+
+.contact-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+/* Style the footer */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color in the footer */
+    padding: 20px; /* Add padding to the footer content */
+    text-align: center; /* Center-align the content */
+}
