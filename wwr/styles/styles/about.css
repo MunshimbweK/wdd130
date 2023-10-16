@@ -1,86 +1,17 @@
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.text-left, .text-right {
-    flex: 1;
-    text-align: center;
-}
-
-.image {
-    flex: 2;
-    text-align: center;
-}
-
-.image img {
-    max-width: 100%;
-    height: auto;
-}
-.navigation{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-    
-
-
-
-/* Set a background color for the entire page */
-body {
-    background-color: #f0f0f0; /* Replace with the desired background color */
-    margin: auto; /* Remove default margin */
-    padding: auto; /* Remove default padding */
-}
-
-
-/* Style the header */
 header {
     background-color: #333;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    align-items: center;
-    padding: 10px;
     color: #fff;
-
+    padding: 10px;
 }
-
+ 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+    display: inline-block;
+    margin-right: 20px;
 
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    
-}
-
-.navigation {
-    display: flex;
-    list-style: none;
-}
-.navigation li{
-    flex: 1 1 100%;
-}
-
-.navigation a {
-    display: block;
-    color: whitesmoke;
-    padding: 20px;
-    text-decoration: none;
-
+.heading {
+    color: red;
+    text-align: center;
 }
 .navigation a:hover {
     color: tomato;
@@ -88,80 +19,85 @@ nav {
     text-decoration: underline;
 }
 
-/* Style the company name in the header */
-h1 {
-    font-size: 36px;
-    margin: 20px 0;
+nav {
+    display: right;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
 }
 
-/* Style sections */
-.image-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-}
-.text-left, .text-right {
-    flex: 1;
-}
-.image {
-    flex: 2;
-}
-
-.image img {
-    max-width: 100%;
-    height: auto;
-}
-/* Style section titles */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.centered-heading {
-    text-align: center;
-}
-section h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.image-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f0f0f0;
-}
-
-.image-container img {
-    max-width: 100px;
-    height: auto;
-}
-/* Style the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: right;
-    padding: 10px 0;
-}
-
-/* Style the copyright text in the footer */
-footer p {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-/* Style social media icons in the footer */
-footer a {
-    margin: 0 10px;
+nav a {
     text-decoration: none;
     color: #fff;
 }
 
-/* Style the hero section */
+ /* Style the footer */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color in the footer */
+    padding: 20px; /* Add padding to the footer content */
+    text-align: center; /* Center-align the content */
+}/* Assuming each social image has a class like "social-icon" */
+.footer {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: right; /* Vertically center the items */
+  }
+  
+  .social-icon {
+    margin-right: 10px; /* Add some spacing between the social icons */
+  }
+  
 
 
+/* Style the contact information section */
+.contact-info {
+    margin-bottom: 20px; /* Add some space below this section */
+}
+
+/* Style the copyright notice */
+.copyright {
+    font-size: 12px; /* Adjust the font size */
+}
+
+/* Style the social icons */
+.social-icons {
+    display: inline-block; /* Display social icons horizontally */
+    margin: 0 10px; /* Add space between social icons */
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Icon color */
+}
+
+/* Style the site map section */
+.site-map ul {
+    list-style-type: none; /* Remove bullets from list */
+    padding: 0; /* Remove padding from list */
+}
+
+.site-map ul li {
+    margin-bottom: 5px; /* Add space between list items */
+}
+
+/* Style links in the site map */
+.site-map ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Link color */
+}
+/* Container for the images */
+.image-container {
+    display: flex; /* Use a flexbox container to create a horizontal layout */
+    align-items: center; /* Vertically center the images in the container */
+    justify-content: space-between; /* Distribute space between the images */
+  }
+  
+  /* Style for the images */
+  .image {
+    max-width: 100%; /* Ensure the images don't exceed their container width */
+    height: auto; /* Maintain the aspect ratio of the images */
+    margin-right: 10px; /* Add some spacing between the images */
+  }
+  
