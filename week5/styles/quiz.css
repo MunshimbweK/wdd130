@@ -1,0 +1,16 @@
+<style>
+    /* Add your CSS styles here */
+    form {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    p {
+        font-weight: bold;
+    }
+    label {
+        display: block;
+    }
+      
+    </style>
