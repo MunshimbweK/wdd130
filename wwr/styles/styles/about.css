@@ -101,3 +101,17 @@ footer {
     margin-right: 10px; /* Add some spacing between the images */
   }
   
+  /* Center headings */
+.centered-heading {
+    text-align: center;
+}
+
+/* Center images */
+.image {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+  
