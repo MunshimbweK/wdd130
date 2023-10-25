@@ -1,0 +1,182 @@
+/* Reset default styles for consistency across browsers */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('https://www.byuiwebdev.com/img/hero1.png');
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: wheat;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: wheat;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: wheat;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.cta-button:hover {
+    background-color: wheat;
+}
+
+.company-info {
+    background-color: wheat; /* Set your desired background color */
+    overflow: hidden; /* Clear floats */
+  
+    /* Optional: Add padding and margins for spacing */
+    padding: 40px;
+    margin: 40px 0;
+  }
+  
+  .info-left {
+
+    float: left;
+    margin: 40px;
+    padding: 40px;
+}
+
+.image-container {
+    position: relative;
+  }
+  
+  img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+
+  .gfg{
+    margin: 3%;
+    position: relative;
+  }
+  
+  .text-container{
+    position: absolute;
+    color: rgb(255,255, 255);
+    left: 18rem;
+    top: 2rem;
+    background-color: rgb(41, 41, 41);
+    padding: 0 1rem;
+    
+  }  
+
+  
+  .features {
+    display: flex;
+    justify-content: space-between; /* Distribute items with equal space between them */
+    margin-top: 30px;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+    flex: 1; /* Distribute available space equally among items */
+}
+
+.bordered-image {
+    border: 2px solid #000;
+    margin: 10px;
+    max-width: 100%; /* Ensure the images don't exceed their container width */
+    height: auto; /* Maintain the aspect ratio of the images */
+    margin: 10px;
+}
+
+
+
+
+.cta-button {
+    display: inline-block;
+    background-color: wheat;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #083d77;
+}
+.footer {
+    float: right;
+    margin-top: 20px;
+    align: right;
+  }
+  
+  .footer img {
+    border-radius: 20px;
+  }
+
+  .site-map ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  .site-map ul li{
+    margin-bottom: 10px;
+  }
+  .site-map ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  footer p {
+    margin: 0;
+    flex: 1;
+    text-align: left;
+  }
+  footer p + p {
+    margin-left: 20px;
+  }

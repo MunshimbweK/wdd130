@@ -41,7 +41,8 @@ footer {
     color: #fff; /* Text color in the footer */
     padding: 20px; /* Add padding to the footer content */
     text-align: center; /* Center-align the content */
-}/* Assuming each social image has a class like "social-icon" */
+}
+/* Assuming each social image has a class like "social-icon" */
 .footer {
     display: flex;
     justify-content: flex-end; /* Align items to the right */

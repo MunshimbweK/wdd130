@@ -1,0 +1,10 @@
+.flex-container{
+    display: flex;
+}
+.flex-box{
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    justify-content: right;
+}
